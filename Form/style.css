@@ -1,0 +1,34 @@
+  form{
+    margin: 10px;
+    padding: auto;
+  }
+
+ .username{
+    background-color: aqua;
+    color: rgba(13, 13, 13,0.1);
+    
+ }
+ .username:active{
+    color: black;
+ }
+ #email{
+    background-color: rgb(121, 78, 160,0.4);
+    color: green;
+ }
+ #password{
+    color:#0a0909;
+    background-color: #fff;
+
+ }
+ #term:checked{
+    accent-color: rgb(142, 91, 219);
+     
+ }
+
+.button__Login{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+   
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM</title>
+    <style>
+    .main_heading{
+        color: red;
+        font-size: 46px;
+    }
+   .main_subheading{
+    color: blue;
+    font-size: 30px;
+    }
+
+    .hero__img{
+    width: 400px;
+    height: 300px;
+    }
+
+
+    .button {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.hero_size_s {
+    font-size: 10px;
+    line-height: 24px;
+    background-color: rgb(43, 226, 217);
+    color: white;
+}
+
+.hero_size_m {
+    font-size: 15px;
+    line-height: 28px;
+    background-color: rgb(43, 86, 226);
+    color: white;
+    
+}
+ .page__footer{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+ }
+
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <p class="main_heading">This is heading</p>
+        <p class="main_subheading">
+            This is heading
+        </p>
+       
+    </div>
+
+    <div class="hero">
+        <img src="https://cdn.pixabay.com/photo/2023/10/25/07/29/woman-8339755_640.jpg" alt="image" class="hero__img">
+        <button class="button hero_size_s">Button-small</button>
+        <button class="button hero_size_m">Button-med</button>
+    </div>
+    <footer  class="footer">
+        <p class="footer page__footer" >
+            this is footer||&#169;||
+            <a href="#">Amit</a>
+        </p>
+
+    </footer>
+</body>
+</html>
